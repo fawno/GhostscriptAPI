@@ -84,7 +84,6 @@
 			$argv = FFIExtended::argsPtr($params);
 
 			if (0 !== $code = $this->gs->gsapi_init_with_args($this->instance, $argc, $argv)) {
-				//echo $this->stdout;
 				throw new GSAPIException('Error initialising instance with args', $code);
 			}
 
