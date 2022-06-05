@@ -26,3 +26,26 @@ php composer.phar require "fawno/gsapi"
 
   use Fawno\GhostscriptAPI\GSAPI;
 ```
+
+## Example
+
+```php
+  require __DIR__ . '/vendor/autoload.php';
+
+  use Fawno\GhostscriptAPI\GSAPI;
+  use Fawno\GhostscriptAPI\GSAPIException;
+
+  $gs = new GSAPI('/usr/gs920/bin/gsdll64.dll');
+  $params = [
+    '-sDEVICE=pdfwrite',
+    '-dPDFSETTINGS=/ebook',
+    '-sOutputFile=ebook.pdf',
+    'original.pdf',
+  ];
+
+  try {
+    $gs->run_with_args($params);
+  } catch (GSAPIException $exception) {
+    echo $exception;
+  }
+```
