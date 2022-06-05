@@ -1,6 +1,5 @@
 {
   "name": "fawno/gsapi",
-  "version": "1.0.4",
   "description": "PHP wrapper class for GhostscriptAPI",
   "license": "MIT",
   "authors": [
