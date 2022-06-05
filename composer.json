@@ -1,0 +1,25 @@
+{
+  "name": "fawno/gsapi",
+  "version": "1.0.4",
+  "description": "PHP wrapper class for GhostscriptAPI",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Fawno",
+      "homepage": "https://github.com/fawno/GhostscriptAPI/graphs/contributors"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/fawno/GhostscriptAPI/issues",
+    "source": "https://github.com/fawno/GhostscriptAPI"
+  },
+  "require": {
+    "php": ">=7.4.0",
+    "ext-ffi": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fawno\\GhostscriptAPI\\": "src"
+    }
+  }
+}
