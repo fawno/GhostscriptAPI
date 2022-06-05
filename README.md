@@ -11,6 +11,7 @@ PHP wrapper class for [Ghostscript API](https://ghostscript.com/doc/current/API.
 
 # Requirements
 - PHP >= 7.4.0
+- Ghostscript >= 9.18
 - ext-ffi ([Foreign Function Interface extension](https://www.php.net/manual/en/book.ffi.php))
 
 ## Instalation

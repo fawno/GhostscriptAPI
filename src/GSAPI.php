@@ -55,8 +55,8 @@
 
 			$this->gsapi_revision = $this->gs->new('gsapi_revision_t');
 			if (0 == $this->gs->gsapi_revision(FFI::addr($this->gsapi_revision), FFI::sizeof($this->gsapi_revision))) {
-				if ($this->gsapi_revision->revision < 950) {
-					throw new GSAPIException('Need at least Ghostscript 9.50');
+				if ($this->gsapi_revision->revision < 918) {
+					throw new GSAPIException('Need at least Ghostscript 9.18');
 				}
 			} else {
 				throw new GSAPIException('Revision structure size is incorrect');
