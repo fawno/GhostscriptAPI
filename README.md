@@ -1,5 +1,5 @@
 [![GitHub license](https://img.shields.io/github/license/fawno/GhostscriptAPI)](https://github.com/fawno/GhostscriptAPI/blob/master/LICENSE)
-[![GitHub release](https://img.shields.io/github/release/fawno/GhostscriptAPI)](https://github.com/fawno/GhostscriptAPI/releases)
+[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/fawno/GhostscriptAPI)](https://github.com/fawno/GhostscriptAPI/tags)
 [![Packagist](https://img.shields.io/packagist/v/fawno/gsapi)](https://packagist.org/packages/fawno/gsapi)
 [![Packagist Downloads](https://img.shields.io/packagist/dt/fawno/gsapi)](https://packagist.org/packages/fawno/gsapi/stats)
 [![GitHub issues](https://img.shields.io/github/issues/fawno/GhostscriptAPI)](https://github.com/fawno/GhostscriptAPI/issues)
